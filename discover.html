@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles-discover.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div>
+				<img src="logo.png" alt="LOGO">
+			</div>
+			<div class='right'>
+				<a href="vivaahprofile.html" class='button'>PROFILE</a>
+				<a href="loginpage.html" class='button'>LOGOUT</a>
+			</div>
+		</header>
+		<hr>
+		<div class="content">
+			<div class="search">
+				<h1>SEARCH</h1>
+				<form>
+					<label for="parameter">Parameter</label><br>
+					<input type="text" id="parameter" name="parameter"><br>
+					<label for="column">in Column</label><br>
+					<select name="column" id="column">
+						<option value selected="All">All</option>
+						<option value="name">Name</option>
+						<option value="city">City</option>
+						<option value="state">State</option>
+						<option value="religion">Religion</option>
+						<option value="caste">Caste</option>
+					</select>
+				</form>
+			</div>
+			<div class="discover">
+				<table>
+					<tr>
+						<th>Profile Picture</th>
+						<th>Full Name</th>
+						<th>City</th>
+						<th>State</th>
+						<th>Age</th>
+						<th>Religion</th>
+						<th>Caste</th>
+						<th>Height(cm)</th>
+					</tr>
+					<tr>
+						<td><img src="nezuko.png" width=100px></td>
+						<td>Nezuko Kamado</td>
+						<td>Indore</td>
+						<td>Madhya Pradesh</td>
+						<td>23</td>
+						<td>Hindu</td>
+						<td>Agrawal</td>
+						<td>170</td>
+					</tr>
+					<tr>
+						<td><img src="kyojuro.jpg" width=100px></td>
+						<td>Kyojuro Rengoku</td>
+						<td>Jaipur</td>
+						<td>Rajsthan</td>
+						<td>27</td>
+						<td>Sikh</td>
+						<td>Khatri</td>
+						<td>183</td>
+					</tr>
+					<tr>
+						<td><img src="luffy.jpg" width=100px></td>
+						<td>Monkey D. Luffy</td>
+						<td>Mumbai</td>
+						<td>Maharashtra</td>
+						<td>24</td>
+						<td>Hindu</td>
+						<td>Kshatriya</td>
+						<td>191</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<hr>
+		<footer>
+			<p>© 2022 Vivah. Created by Group 17</p>
+		</footer>
+	</body>
+
+</html>

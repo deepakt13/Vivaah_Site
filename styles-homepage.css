@@ -1,0 +1,146 @@
+body {
+	margin: 0px;
+}
+
+img.bg {
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+	max-width: 100%;
+}
+
+img.logo {
+	max-width: 50%;
+}
+
+.first-impression {
+	padding: 5% 10%;
+	text-align: center;
+	font-size: 50px;
+	color: #ffffff;
+	font-family: 'Tangerine', cursive;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.container-feature {
+	padding: 5% 10%;
+	background-color: #A7324E;
+	color: #fff;
+}
+
+.container-feature h1 {
+	text-align: center;
+	font-family: 'Montserrat', Sans-serif;
+	font-size: 45px;
+}
+
+.feature img {
+	border-radius: 50%;
+	border: 5px solid black;
+	width: 50%;
+}
+
+.feature {
+	display: inline-block;
+	width: 33%;
+	font-family: 'Tangerine', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+.uname {
+	font-family: Sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+p.button {
+	width: 10%;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: none;
+	background-color: #E24666;
+	padding: 1%;
+	margin-left: 3%;
+	margin-right: 3%;
+	box-shadow: 0px 4px #9E3147;
+	letter-spacing: 1px;
+}
+
+p.button:active {
+	transform: translateY(4px);
+	box-shadow: 0px 0px;
+}
+
+.feat-list {
+	background-color: #F9DAE0;
+	padding: 5% 10%;
+}
+
+.feat-list div {
+	display: inline-block;
+	width: 69%;
+}
+
+.feat-list img {
+	width: 28%;
+	border-radius: 50%;
+	border: 10px solid #E5E4F0;
+}
+
+.feat-list h1 {
+	font-family: 'Montserrat', Sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.feat-list ul {
+	font-family: 'Tangerine', cursive;
+	font-size: 50px;
+}
+
+.about {
+	background-color: #A7324E;
+	color: #FFFFFF;
+	padding: 5% 10%;
+	font-size: 20px;
+	font-family: Sans-serif;
+	letter-spacing: 1px;
+}
+
+.about h1 {
+	display: inline-block;
+	font-size: 50px;
+	font-family: 'Montserrat', Sans-serif;
+}
+
+.contact {
+	background-color: #F9DAE0;
+	padding: 2% 10%;
+	font-family: Sans-serif;
+	font-size: 30px;
+}
+
+.contact h1 {
+	font-family: 'Montserrat', Sans-serif;
+	font-size: 50px;
+}
+
+footer {
+	text-align: center;
+	background-color: #A7324E;
+	color: #FFFFFF;
+	padding: 1%;
+}
+
+.goto{
+        
+	font-family: 'Montserrat', Sans-serif;
+}
+.goto a{
+	padding: 3px;
+	text-decoration: none;
+	color: pink;
+
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivah - Register</title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+   
+</head>
+<style>
+body{  font-family: 'Aclonica';font-size: 15px;
+     margin: 0px;
+     padding: 0px;
+     background: url("bg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% ;
+
+
+
+}
+img{
+	height:70px;
+	margin: 2px 2px;
+	padding: 8px 8px;
+    
+
+}
+
+a{   color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+
+.left {
+    position: absolute;
+    top: 45px;
+    left: 70px;
+    
+    display: inline-block;
+}
+.right {
+    color:rgb(228, 28, 28);
+    position: absolute;
+    top: 60px;
+    right: 80px;
+    
+    display: inline-block;
+    border-radius: 15px;
+}
+.bt { 
+    margin: 2px 5px;
+    padding: 10px, 20px;
+ background-color: black;
+
+
+
+
+}
+.bt:hover{
+    background-color: pink;
+}
+.btn:hover{
+    background-color: pink;
+}
+
+.container{
+    background-color: white;
+    border: 2px solid black;
+    position:absolute;
+    top: 200px;
+    left: 40%;    
+    border-radius: 20px;
+    
+}
+.container h1{
+    color: rebeccapurple;
+}
+
+.form_group{
+background-color:pink;
+opacity: 1;
+padding: 5px 50px;
+font-family: 'Aladin';
+
+
+}
+.container h1{
+text-align: center;
+    
+}
+
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+
+.form_group input{
+    
+text-align: center;
+
+
+}
+
+
+
+
+
+
+
+</style>
+<body>
+    <div class="header">
+        <div class="left">
+
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="right">
+            <button class="bt">
+                <a href="index.html">HOME</a>
+            </button>
+        </div>
+
+    </div>
+    <div class="container">
+        <h1>Register Here</h1>
+        <form action="hoof.php">
+            <div class="form_group">
+                <input type="text" name="Name" id="f1name" placeholder="Name">
+            </div>
+            <div class="form_group">
+                <input type="email" name="email" id="f1email" placeholder="Email">
+            </div>
+            <div class="form_group">
+                <input type="password" name="password" id="f1password" placeholder="password">
+            </div>
+            <div class="form_group">
+               DOB <input type="date" name="dob" id="f1dob" placeholder="DOB">
+            </div>
+            <div class="form_group">
+                <input type="number" name="height" id="f1height" placeholder="Height(CM)">
+            </div>
+            <div class="form_group">
+                <input type="text" name="maritalstatus" id="f1mstatus" placeholder="Marital Status(M/U)">
+            </div>
+            <div class="form_group">
+                <input type="text" name="mothertongue" id="f1mtongue" placeholder="Mother Tongue">
+            </div>
+            <div class="form_group">
+                <input type="text" name="religion" id="f1religion" placeholder="Religion" >
+
+            </div>
+            <div class="form_group">
+                <input type="text" name="city" id="f1city" placeholder="City">
+            </div>
+            <div class="form_group">
+                <input type="number" name="pincode" id="f1pincode" placeholder="Pincode">
+            </div>
+            <div class="form_group">
+                <input type="number" name="mobile" id="f1mobile" placeholder="Mobile">
+            </div>
+            <button type="submit" class="btn">Join FREE</button>
+            <button type="reset" class="btn">Reset</button>
+        </form>
+    </body>
+</html>
